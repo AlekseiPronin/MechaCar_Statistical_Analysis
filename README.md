@@ -55,3 +55,22 @@ The second t-test of Lot2 shows that p-value is 0.60. Considerring common signif
 ![t-test_3](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_3.png)
 
 The third t-test shows that p-value is 0.04 and smaller than signifficance level. Therefore we can reject the null hypothesis, which means that two means are statistically different. Also, confidence interval is much bigger and does not contain population mean of 1500.
+
+
+### Study Design: MechaCar vs Competition
+
+As an addition, we could design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+For this study we could choose metric that would be of interest to a consumer, for example city fuel efficiency. Fuel is expensive and fuel consumption is very important for consumers while buying a new car. We would have to use linear regression with the number of metrics, such as:
+* City fuel efficiency as dependent variable
+* Horse power as independent variable
+* Car weight as independent variable
+* AWD as independent variable
+
+For this study we would have to collect some additional data, such as car weight and horse power.
+
+The hypotheses would be:
+
+H0: There is no difference in fuel efficiency
+
+H1: There is some difference in fuel efficiency
