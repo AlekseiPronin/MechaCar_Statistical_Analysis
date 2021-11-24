@@ -33,3 +33,25 @@ As we can see, the current manufacturing data does meet the design specification
 
 ### T-Tests on Suspension Coils
 
+The t-test was performed on all manufacturing lots first against population mean of 1,500 pounds per square inch.
+
+![t-test_all](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_all.png)
+
+As we can see, the p-value is 0.06 which is greater than assumed significance level of 0.05, which means that we fail to reject null hypothesis, therefore PSI across all manufacturing lots is statistically different from the population mean.
+
+
+Also, the t-test was performed for each lot:
+
+![t-test_1](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_1.png)
+
+For the first t-test of Lot1, the p-value is equal to 1, therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. Also, confidence interval, which show how much uncertainty there is with any particular statistic, is very small. It makes prediction of the true mean more presise.
+
+
+![t-test_2](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_2.png)
+
+The second t-test of Lot2 shows that p-value is 0.60. Considerring common signifficance level of 0.05, we fail to reject null hypothesis. The confidence interval is also very small.
+
+
+![t-test_3](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_3.png)
+
+The third t-test shows that p-value is 0.04 and smaller than signifficance level. Therefore we can reject the null hypothesis, which means that two means are statistically different. Also, confidence interval is much bigger and does not contain population mean of 1500.
