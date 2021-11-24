@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+Click here to look through the R-Script: [MechaCarChallenge.RScript](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
+
 ## Purpose
 
 The main purpose of this project was to use R to collect a summary statistics, implement and evaluate linear regression and one-sample t-tests and provide insights based on the output data.
