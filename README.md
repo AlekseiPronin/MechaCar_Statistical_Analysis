@@ -39,7 +39,7 @@ The t-test was performed on all manufacturing lots first against population mean
 
 ![t-test_all](https://github.com/AlekseiPronin/MechaCar_Statistical_Analysis/blob/main/Resources/t-test_all.png)
 
-As we can see, the p-value is 0.06 which is greater than assumed significance level of 0.05, which means that we fail to reject null hypothesis, therefore PSI across all manufacturing lots is statistically different from the population mean.
+As we can see, the p-value is 0.06 which is greater than assumed significance level of 0.05, which means that we fail to reject null hypothesis, therefore PSI across all manufacturing lots is statistically simmilar to the population mean.
 
 
 Also, the t-test was performed for each lot:
